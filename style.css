@@ -212,6 +212,7 @@ color: grey;
 }
 @media (max-width: 420px){
     main {
+        height: auto;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(7, auto) 2px repeat(11, auto);
         padding: 20px;
