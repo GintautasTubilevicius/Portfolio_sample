@@ -40,7 +40,6 @@ img {
     text-align: justify;
     text-justify: inter-word;
 }
-
 .date{
     grid-column: 2 / 3;
     grid-row: 3 / 4;
@@ -233,7 +232,6 @@ color: grey;
         grid-column: 1 / 3;
         grid-row: 3 / 4;
     }
-    
     .date{
         grid-column: 1 / 3;
         grid-row: 4 / 5;
