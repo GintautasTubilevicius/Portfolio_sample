@@ -3,6 +3,7 @@
 }
 body, html {
     margin: 0;
+    margin-bottom: 5px;
     padding: 0;
     font-family: League Spartan;
 }
@@ -31,7 +32,7 @@ img {
     font-weight: 700;
 }
 .name span{
-    color:red;
+    color:crimson;
     font-size: 20px;
 }
 .bio {
@@ -67,12 +68,22 @@ img {
 i {
 color: grey;
 }
+i:hover {
+    color: blue;
+}
 .empty {
     grid-column: 1 / 6;
     grid-row: 5 / 6;
 }
 .numbers p {
     font-weight: 700;
+    margin-bottom: 8px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color:crimson;
 }
 .numbers span {
     color: grey;
@@ -93,23 +104,23 @@ color: grey;
     font-size: 14px;
     justify-self: end;
 }
-.wordpress {
+.html {
      grid-column: 2 / 4;
     grid-row: 8 / 9;
 }
-.joomla {
+.nodejs {
     grid-column: 4 / 6;
     grid-row: 8 / 9;
 }
-.drupal {
+.mysql {
     grid-column: 2 / 4;
     grid-row: 9 / 10;
 }
-.shopify {
+.react {
     grid-column: 4 / 6;
     grid-row: 9 / 10;
 }
-.wordpress span, .joomla span, .drupal span, .shopify span {
+.html span, .nodejs span, .mysql span, .react span {
     font-size: 14px;
     text-align: justify;
     text-justify: inter-word;
@@ -171,23 +182,23 @@ color: grey;
         grid-column: 1 / 2;
         grid-row: 12 / 16;
     }
-    .wordpress {
+    .html {
          grid-column: 2 / 4;
         grid-row: 12 / 13;
     }
-    .joomla {
+    .nodejs {
         grid-column: 2 / 4;
         grid-row: 13 / 14;
     }
-    .drupal {
+    .mysql {
         grid-column: 2 / 4;
         grid-row: 14 / 15;
     }
-    .shopify {
+    .react {
         grid-column: 2 / 4;
         grid-row: 15 / 16;
     }
-    .work1, .work2, .specialitys, .wordpress span, .joomla span, .drupal span, .shopify span{
+    .work1, .work2, .specialitys, .html span, .nodejs span, .mysql span, .react span{
         font-size: 12px;
     }
     .date p,.place p, .language p {
@@ -270,19 +281,19 @@ color: grey;
         justify-self: start;
         border-bottom: 2px solid grey;
     }
-    .wordpress {
+    .html {
          grid-column: 1 / 3;
         grid-row: 16 / 17;
     }
-    .joomla {
+    .nodejs {
         grid-column: 1 / 3;
         grid-row: 17 / 18;
     }
-    .drupal {
+    .mysql {
         grid-column: 1 / 3;
         grid-row: 18 / 19;
     }
-    .shopify {
+    .react {
         grid-column: 1 / 3;
         grid-row: 19 / 20;
     }
